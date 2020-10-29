@@ -8,10 +8,11 @@ Script python récupérant les EXIFs d'images jpg pour les insérer dans une pil
 
 ## Prérequis
 
-### Installation d'exiftool
+### Installation d'exiftool et du module elasticsearch
 
 ```
-$ sudo apt install libimage-exiftool-perl
+$ sudo apt install libimage-exiftool-perl python3-pip
+$ sudo pip3 install elasticsearch
 ```
 
 ## Installation
